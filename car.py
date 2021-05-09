@@ -192,11 +192,11 @@ def main(parameters=default_parameters, argv=None, verbose=True):
       else:
         predictions[n].append(float('nan'))
 
-    anomalyLikelihood = anomaly_history.anomalyProbability( acceleration, tm.anomaly )
+    anomalyLikelihood = anomaly_history.anomalyProbability( consumption, tm.anomaly )
     anomaly.append( tm.anomaly )
     anomalyProb.append( anomalyLikelihood )
 
-    predictor.learn(count, tm.getActiveCells(), int(acceleration / predictor_resolution))
+    predictor.learn(count, tm.getActiveCells(), int(consumption / predictor_resolution))
 
 
   # Print information & statistics about the state of the HTM.
