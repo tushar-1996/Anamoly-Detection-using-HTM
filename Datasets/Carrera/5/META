@@ -1,0 +1,30 @@
+
+		Settings:
+		NUM_TRIALS = 1
+
+		DURATION = 120
+
+		PLATOON_ORDER = [3, 2, 1]
+
+		ATTACK_TYPE = Data_Injection
+
+		MIN_ATTACK_ONSET = 50
+
+		MIN_ATTACK_DURATION = 10
+
+		MAX_ATTACK_ONSET = 80
+
+		MAX_ATTACK_DURATION = 20
+
+		
+
+		Parameters:
+
+		ATTACKED_CAR = 3
+
+		ATTACK_ONSET = 55
+
+		ATTACK_DURATION = 17
+
+
+		

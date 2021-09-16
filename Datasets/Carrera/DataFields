@@ -1,0 +1,2 @@
+Properties:
+	sender_ID, position, velocity, acceleration, predecessor_distance, timestamp, delta_time
